@@ -1,0 +1,107 @@
+body {
+  background-color: #ffffff;
+  color: #6a6a6a;
+}
+
+*,
+*:before,
+*:after {
+  font-size: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+  max-height: 100px;
+}
+
+.header-body__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 45%;
+  height: 100%;
+}
+
+.header-body__img {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50px;
+  height: 50px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.header-body__title {
+  font-size: 2rem;
+}
+
+.header-body__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 55%;
+}
+
+.header-body__ico {
+  background-color: #1a9bdc;
+  border-radius: 25%;
+  padding: 5px;
+}
+
+.header-body__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-body__text {
+  font-size: 1.2rem;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.header-body__text_bold {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
