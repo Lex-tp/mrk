@@ -12,6 +12,7 @@ body
 .container 
     width: 100%
     max-width: 1240px
+    min-width: 800px
     margin: 0 auto
 
     font-family: 'Roboto', sans-serif
@@ -21,21 +22,18 @@ body
     flex-direction: row
     height: 100%
     max-height: 100px
+    border-bottom: 2px solid #ececec 
 
 .header-body__logo
     display: flex
     flex-direction: row
-    width: 45%
+    min-width: 558px
     height: 100%
 
 .header-body__img
-    display: block
-    margin-top: auto
-    margin-bottom: auto
     width: 50px
     height: 50px
     transform: rotate(180deg)
-
 
 .header-body__title
     font-size: 2rem
@@ -66,3 +64,31 @@ body
 .header-body__text_bold
     font-size: 1.4rem
     font-weight: bold
+
+.header-body__nav
+    height: 50px
+    list-style-type: none
+    display: flex
+    padding: 0px 0px 0px 10px
+    li
+        margin-right: 30px
+        a
+            text-transform: uppercase
+            text-decoration: none
+            color: $fonts-dark-color
+            font-weight: 700
+            &::after
+                width: 100%
+                content: " "
+                display: block
+                height: 2px
+                background-color: $blue-color
+                transform: translateY(19px) scale(0)
+                transition: .2s
+            &:hover
+                color: $blue-color
+                text-decoration: none
+                &::after
+                    transform: translateY(19px) scale(1) 
+
+                

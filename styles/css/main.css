@@ -14,6 +14,7 @@ body {
 .container {
   width: 100%;
   max-width: 1240px;
+  min-width: 800px;
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
 }
@@ -28,6 +29,7 @@ body {
           flex-direction: row;
   height: 100%;
   max-height: 100px;
+  border-bottom: 2px solid #ececec;
 }
 
 .header-body__logo {
@@ -38,14 +40,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 45%;
+  min-width: 558px;
   height: 100%;
 }
 
 .header-body__img {
-  display: block;
-  margin-top: auto;
-  margin-bottom: auto;
   width: 50px;
   height: 50px;
   -webkit-transform: rotate(180deg);
@@ -104,4 +103,41 @@ body {
 .header-body__text_bold {
   font-size: 1.4rem;
   font-weight: bold;
+}
+
+.header-body__nav {
+  height: 50px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 0px 0px 10px;
+}
+.header-body__nav li {
+  margin-right: 30px;
+}
+.header-body__nav li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #6a6a6a;
+  font-weight: 700;
+}
+.header-body__nav li a::after {
+  width: 100%;
+  content: " ";
+  display: block;
+  height: 2px;
+  background-color: #1a9bdc;
+  -webkit-transform: translateY(19px) scale(0);
+          transform: translateY(19px) scale(0);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.header-body__nav li a:hover {
+  color: #1a9bdc;
+  text-decoration: none;
+}
+.header-body__nav li a:hover::after {
+  -webkit-transform: translateY(19px) scale(1);
+          transform: translateY(19px) scale(1);
 }
