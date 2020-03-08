@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="styles/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
+
+    <!--Slick-slider-->
+    <link href="slick/slick-theme.css" rel="stylesheet">
+    <link href="slick/slick.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +21,10 @@
             <div class="row align-items-center  header-body">
                 <div class="col align-items-center header-body__logo">
                     <img class="header-body__img" src="assets/img/logo.png" alt="Логотип">
-                    <h1 class="header-body__title">Гомельская областная медико-реабилитационная экспертная комиссия</h1>
+                    <a href="#">
+                        <h1 class="header-body__title">Гомельская областная медико-реабилитационная экспертная комиссия
+                        </h1>
+                    </a>
                 </div>
                 <div class="col header-body__info">
                     <div class="header-body__item">
@@ -25,24 +32,24 @@
                             <img src="assets/img/clock.png">
                         </div>
                         <span class="header-body__text">
-                            <span class="header-body__text_bold">Режим работы: 9:00 - 15:00</span>
+                            <span class="header-body__text_bold">Режим работы: 9:00 - 16:30</span>
                             Выходной: Суббота и Воскресенье
                         </span>
                     </div>
                     <div class="header-body__item">
                         <div class="header-body__ico">
-                            <img src="assets/img/mail.png">
+                            <img src="assets/img/phone.png">
                         </div>
                         <span class="header-body__text">
-                            <span class="header-body__text_bold">Электронная почта:</span>
-                            gomeloblmrek@mail.gomel.by
+                            <span class="header-body__text_bold">Телефоны горячей линии: </span>
+                            +375 232 25-75-07, +375 232 25-75-35
                         </span>
                     </div>
                 </div>
             </div>
-            <div class="row  justify-content-start">
-                <div class="col-md-auto">
-                    <ul class="header-body__nav align-items-center ">
+            <div class="row">
+                <div class="col-md normal-padding justify-content-between">
+                    <ul class="header-body__nav align-items-center">
                         <li><a href="#">Главная</a></li>
                         <li><a href="#">Об учреждении</a></li>
                         <li><a href="#">Информация</a></li>
@@ -53,6 +60,151 @@
                 </div>
             </div>
         </header>
+        <main class="content">
+            <div class="row">
+                <div class="col-md-4 content__left-sidebar">
+                    <ul class="content__left-sidebar_menu">
+                        <li><a href="#">График прямых телефонных линий</a></li>
+                        <li><a href="#">График прямых телефонных линий ГУЗО</a></li>
+                        <li><a href="#">График работы &laquo;Горячей линии&raquo;</a></li>
+                    </ul>
+                    <div class="content__left-sidebar-title">
+                        <h2>Новости</h2>
+                    </div>
+                    <div class="content__left-sidebar__item">
+                        <img src="assets/img/post1.jpg">
+                        <div class="content__left-sidebar__item__text">
+                            <a href="#">
+                                <h2>Инсульт - проблема века</h2>
+                            </a>
+                            <p>Кому из людей старше 50 лет не знакомы такие симптомы, как головная боль, головокружение,
+                                снижение памяти?...</p>
+                            <div class="content__left-sidebar__item_read-more">
+                                <a href="#">Читать дальше &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__left-sidebar__item">
+                        <img src="assets/img/post2.jpg">
+                        <div class="content__left-sidebar__item__text">
+                            <a href="#">
+                                <h2>Профилактика злокачественных новообразований</h2>
+                            </a>
+                            <p> Рак, как болезнь, поражающая человека, известен с незапамятных времен. Палеонтологи
+                                обнаружили опухолевые...</p>
+                            <div class="content__left-sidebar__item_read-more">
+                                <a href="#">Читать дальше &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 normal-padding">
+                    <div class="content__body">
+                        <p>Учреждение "Гомельская областная медико-реабилитационная экспертная комиссия" (далее – МРЭК)
+                            является государственным учреждением здравоохранения, которое осуществляет:</p>
+                        <p>освидетельствование граждан в целях проведения экспертизы нарушения жизнедеятельности граждан
+                            (далее– медико-социальная экспертиза) в порядке и сроки, установленные Министерством
+                            здравоохранения;</p>
+                        <p>установление инвалидности у лиц старше 18 лет, в том числе группы и причины инвалидности,
+                            даты
+                            наступления и сроки инвалидности;</p>
+                        <p>установление категории "ребенок-инвалид" у лиц в возрасте до 18 лет, в том числе степени
+                            утраты
+                            здоровья, даты наступления и срока инвалидности, а в случаях, предусмотренных
+                            законодательством
+                            - причин инвалидности;</p>
+                        <p>определение конкретных объемов, видов и сроков проведения реабилитационных мероприятий
+                            гражданам, прошедшим медико-социальную экспертизу, в случаях, предусмотренных
+                            законодательством;</p>
+                        <p>учет и анализ структуры инвалидности.</p>
+                        <p>Дополнительную информации вы можете получить по телефону 8-0232-75-05-01 короткий номер 131,
+                            круглосуточно.</p>
+                        <p>Телефоны горячей линии: 8-0232-25-75-07, 8-0232-25-75-35</p>
+                        <p>Время работы: с 9.00 до 15.00, перерыв с 12.30 до 13.00</p>
+                        <p>Вышестоящая организация: Главное управление здравоохранения Гомельского облисполкома</p>
+                        <p>телефон горячей линии: 8-0232-50-32-04</p>
+                        <p>время работы: с 9.00 до 17.00 обед 13.00-14.00.</p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer-body">
+            <div class="row section-link">
+                <div class="col-md section-link__slider">
+                    <div class="section-link__items">
+                        <div class="section-link__item">
+                            <div class="section-link__item__block">
+                                <img src="assets/img/admProc.png">
+                                <p>Административные процедуры</p>
+                            </div>
+                        </div>
+                        <div class="section-link__item">
+                            <div class="section-link__item__block">
+                                <img src="assets/img/stat.png">
+                                <p>Порядок приема заявлений</p>
+                            </div>
+                        </div>
+                        <div class="section-link__item">
+                            <div class="section-link__item__block">
+                                <img src="assets/img/write.png">
+                                <p>Образцы заявлений</p>
+                            </div>
+                        </div>
+                        <div class="section-link__item">
+                            <div class="section-link__item__block">
+                                <img src="assets/img/personMail.png">
+                                <p>Электронные обращения</p>
+                            </div>
+                        </div>
+                        <div class="section-link__item">
+                            <div class="section-link__item__block">
+                                <img src="assets/img/questions.png">
+                                <p>Часто задаваемые вопросы</p>
+                            </div>
+                        </div>
+                        <div class="section-link__item">
+                            <div class="section-link__item__block">
+                                <img src="assets/img/list.png">
+                                <p>Полезные статьи</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 footer-body__organization align-items-center">
+                    <span>Гомельская областная медико-реабилитационная экспертная комиссия</span>
+                    <p>Учреждение "Гомельская областная медико-реабилитационная экспертная комиссия" является
+                        государственным учреждением здравоохранения</p>
+                </div>
+                <div class="col-md-2 align-items-center">
+                    <ul class="footer-body__nav">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Об учреждении</a></li>
+                        <li><a href="#">Информация</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 align-items-center">
+                    <ul class="footer-body__nav">
+                        <li><a href="#">Административные процедуры</a></li>
+                        <li><a href="#">Электронные обращения</a></li>
+                        <li><a href="#">Часто задаваемые вопросы</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 footer-body__nav__info align-items-center">
+                    <ul>
+                        <li><img src="assets/img/address.png"><div>Адрес МРЭК: г. Гомель, ул.Пролетарская, 22</div></li>
+                        <li><img src="assets/img/post.png"><div>Почтовый индекс: 246050</div></li>
+                        <li><img src="assets/img/phone.png"><div>Телефон: 8 0232 25 75 30</div></li>
+                        <li><img src="assets/img/mail.png"><div>Aдрес электронной почты: gomeloblmrek@mail.gomel.by</div></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer-body-copyright">
+                <span>© 2020, Учреждение "Гомельская областная медико-реабилитационная экспертная комиссия"</span>
+            </div>
+        </footer>
     </div>
     <!-- /.container -->
 
@@ -60,6 +212,16 @@
     <!--scripts-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script>window.JQuery || document.write('<script src="js/jquery-3.2.1.slim.min.js"><\/script>')</script>
+    <!--Slick-slider-->
+    <script src="slick/slick.js"></script>
+    <script>
+        $('.section-link__items').slick({
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: true,
+            autoplaySpeed: 5000
+        });
+    </script>
 </body>
 
 </html>
