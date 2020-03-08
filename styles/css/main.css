@@ -239,13 +239,15 @@ body {
 }
 
 .content__left-sidebar__item_read-more {
-  border-top: 1px solid #1a9bdc;
+  border-top: 1px solid #6a6a6a;
 }
 .content__left-sidebar__item_read-more a {
   display: block;
   font-size: 1.4rem;
   padding: 10px;
   text-decoration: none;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 .content__left-sidebar__item_read-more:hover {
   cursor: pointer !important;
