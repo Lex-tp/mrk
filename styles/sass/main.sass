@@ -27,7 +27,7 @@ body
     display: flex
     flex-direction: row
     height: 100%
-    max-height: 100px
+    max-height: 400px
     border-bottom: 2px solid #ececec 
 
 .header-body__logo
@@ -35,16 +35,10 @@ body
     flex-direction: row
     min-width: 558px
     height: 100%
-    a
-        text-decoration: none
-        color: $fonts-dark-color
-        &:hover
-            color: $blue-color
+    
             
 .header-body__img
-    width: 50px
-    height: 50px
-    transform: rotate(180deg)
+    width: 200px
 
 .header-body__title
     font-size: 2rem
@@ -70,7 +64,7 @@ body
 
 .header-body__text
     font-size: 1.25rem
-    width: 215px
+    width: 230px
     margin-left: 10px 
 
 .header-body__text_bold
@@ -116,9 +110,9 @@ body
 .content
     margin: 10px 0px 0px 0px
 
-.content__left-sidebar   
-    padding-right: 15px
-    padding-left: 0px
+.content__right-sidebar   
+    padding-right: 0px
+    padding-left: 15px
     &_menu
         background-color: $bg-color
         box-shadow: 0 0 8px
@@ -146,7 +140,7 @@ body
                 a
                     color: $fonts-light-color
 
-.content__left-sidebar__item
+.content__right-sidebar__item
     background-color: $bg-color
     margin-top: 10px
     box-shadow: 0 0 8px
@@ -157,7 +151,7 @@ body
         width: 100%
         
 
-.content__left-sidebar__item__text
+.content__right-sidebar__item__text
     text-align: center
     h2 
         font-size: 1.6rem
@@ -170,21 +164,21 @@ body
         text-decoration: none
         color: $fonts-dark-color
 
-.content__left-sidebar__item_read-more
+.content__right-sidebar__item_read-more
     border-top: 1px solid $fonts-dark-color
     a
         display: block
         font-size: 1.4rem
         padding: 10px
         text-decoration: none
-        transition: .2s linear 
+        transition: .1s linear 
     &:hover
         cursor: pointer !important
         background-color: $blue-color
         a
             color: $fonts-light-color
 
-.content__left-sidebar-title
+.content__right-sidebar-title
     background-color: $bg-color
     box-shadow: 0 0 8px
     border-radius: 3px
@@ -193,6 +187,7 @@ body
     h2
         font-size: 1.6rem
         padding: 5px
+        margin-top: 0px
 
 .content__body
     background-color: $bg-color
@@ -210,7 +205,7 @@ body
     padding-left: 5px
     padding-right: 5px
 
-.col-md-8
+.col-md-9
     margin-bottom: 10px
 
 .section-link__item
@@ -262,7 +257,7 @@ body
     margin-right: -15px
     padding-left: 15px
     padding-right: 15px
-    border-radius: 3px
+    border-radius: 3px 3px 0px 0px
 
 .footer-body__organization
     display: block
@@ -322,4 +317,41 @@ body
     span
         font-size: 1.2rem
 
-                
+.useful-links
+    display: flex
+    flex-direction: row
+    padding-left: 25px
+    justify-content: center
+
+.useful-links_item 
+    img
+        width: 190px
+        height: 75px
+        margin: 10px
+
+.title-links
+    font-size: 1.8rem
+    color: $fonts-light-color
+    
+.header-body-middle
+    background-color: $bg-color
+    background: url(../../assets/img/Mrek.jfif) 70% 70% no-repeat
+    background-size: cover
+    height: 350px
+    box-shadow: 0 3px 8px
+   
+
+.header-body__name
+    p
+        text-align: center
+        font-size: 3rem
+        font-weight: 700
+        color: $fonts-light-color
+        text-shadow: $fonts-dark-color 1px 1px 0, $fonts-dark-color -1px -1px 0, $fonts-dark-color -1px 1px 0, $fonts-dark-color 1px -1px 0
+    h1
+        font-size: 4rem
+    a
+        text-align: center
+        text-decoration: none
+        color: $blue-color
+        text-shadow: $fonts-light-color 1px 1px 0, $fonts-light-color -1px -1px 0, $fonts-light-color -1px 1px 0, $fonts-light-color 1px -1px 0
